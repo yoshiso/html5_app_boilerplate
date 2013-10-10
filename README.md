@@ -34,3 +34,5 @@ $ grunt
 その後自動でjasmineによるテストが走ります。
 
 サンプルとして`src/js/Player.js`,`src/js/Song.js`,`spec/js/PlayerSpec.js`,`spec/js/SpecHeler.js`が最初に入っているので、`src`,`spec`,`SpecRunnber.html`から、サンプル部分を削除してから開発を始めてください。
+
+`SpecRunner.html`をブラウザから開くと、テストの結果を見ることも可能です。
