@@ -2,16 +2,16 @@ module.exports = (grunt)->
   grunt.initConfig
     pkg: grunt.file.readJSON 'package.json'
     watch:
-      files: ['src/coffee/*.coffee','spec/coffee/*.coffee']
+      files: ['src/coffee/**/*.coffee','spec/coffee/**/*.coffee',]
       tasks: ['coffee','jasmine']
     coffee:
       app:
-        src: ['src/coffee/*.coffee']
+        src: ['src/coffee/**/*.coffee']
         dest: 'src/js/app.js'
         ext: '.js'
       spec:
-        src: ['spec/coffee/*.coffee']
-        dest: 'spec/js/test.js'
+        src: ['spec/coffee/**/*.coffee']
+        dest: 'spec/js/testSpec.js'
         ext: '.js'
 
     jasmine:
