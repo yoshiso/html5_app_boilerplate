@@ -32,3 +32,5 @@ $ grunt
 `src/coffee`、`spec/coffee`でgruntが以下の`*.coffee`ファイルの変更を監視し始めます。
 ファイルに変更があった場合、coffeescriptをコンパイルし`src/js/`,`spec/js`以下にコンパイルされたjavascriptファイルを吐き出します。
 その後自動でjasmineによるテストが走ります。
+
+サンプルとして`src/js/Player.js`,`src/js/Song.js`,`spec/js/PlayerSpec.js`,`spec/js/SpecHeler.js`が最初に入っているので、`src`,`spec`,`SpecRunnber.html`から、サンプル部分を削除してから開発を始めてください。
