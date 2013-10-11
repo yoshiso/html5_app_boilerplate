@@ -11,7 +11,7 @@ module.exports = (grunt)->
         ext: '.js'
       spec:
         src: ['spec/coffee/**/*.coffee']
-        dest: 'spec/js/testSpec.js'
+        dest: 'spec/js/appSpec.js'
         ext: '.js'
 
     jasmine:
